@@ -1,0 +1,343 @@
+@font-face {
+    font-family: font_1;
+    src: url(font/font_1);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: font_1;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 13vh;
+    width: 100%;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > h1{
+    font-family: fantasy;
+    font-size: 35px;
+    font-weight: 900;
+}
+.navlinks{
+    display: flex;
+    gap: 25px;
+}
+.navlinks > a{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #b3afb1;
+}
+.navlinks > a:hover{
+    color: #ff8457;
+}
+.container{
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    height: 70%;
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    border: 5px solid lightblue;
+}
+.left,.right{
+    height: 100%;
+    width: 50VW;
+}
+.left .top,.bottom{
+    height: 50%;
+    width: 100%;
+    padding: 2rem;
+}
+.top > h1{
+    font-family: fantasy;
+    font-size: 35px;
+}
+.top > p{
+    margin-top: 2%;
+    font-size: 20px;
+}
+.bottom > button{
+    padding: 25px 35px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ff8457;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .20),
+                -6px -6px 10px -1px rgba(255, 255, 255, .17);
+
+}
+.bottom > button:hover{
+    background-color:rgba(223, 218, 218, 0.76);
+    color: black;
+}
+.right > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container_1{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_1{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    background-color: #ffede8;
+}
+.left_1,.right_1{
+    height: 100%;
+    width: 100%;
+}
+.left_1 {
+    background-image: url(image/homely-final.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.right_1 {
+    display: flex;
+    padding-left: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.right_1 >h1{
+    align-self: flex-start;
+    font-size: 60px;
+}
+.right_1 >p{
+    align-self: start;
+    font-size: 20px;
+}
+.right_1 >button{
+    align-self: self-start;
+    padding: 25px 35px;
+    color: #fa462a;
+    border: 3px solid #fa462a;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .20),
+                -6px -6px 10px -1px rgba(255, 255, 255, .17);
+}
+.right_1 >button:hover{
+    background-color: #fa462a;
+    color: white;
+}
+
+.container_2{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_2{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    background-color: #ffede8;
+}
+.left_2,.right_2{
+    height: 100%;
+    width: 100%;
+}
+.left_2 {
+    background-image: url(image/mockups3.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.right_2 {
+    display: flex;
+    padding-left: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.right_2 >h1{
+    align-self: flex-start;
+    font-size: 60px;
+}
+.right_2 >p{
+    align-self: start;
+    font-size: 20px;
+}
+.right_2 >button{
+    align-self: self-start;
+    padding: 25px 35px;
+    color: #fa462a;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #fa462a;
+    outline: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .20),
+                -6px -6px 10px -1px rgba(255, 255, 255, .17);
+}
+.right_2 >button:hover{
+    background-color: #fa462a;
+    color: white;
+}
+
+
+.container_3{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_3{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    background-color: #ffede8;
+}
+.left_3,.right_3{
+    height: 100%;
+    width: 100%;
+}
+.left_3 {
+    background-image: url(image/Manoa-hero+image.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.right_3 {
+    display: flex;
+    padding-left: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.right_3 >h1{
+    align-self: flex-start;
+    font-size: 55px;
+}
+.right_3 >p{
+    align-self: start;
+    font-size: 20px;
+}
+.right_3 >button{
+    align-self: self-start;
+    padding: 25px 35px;
+    color: #fa462a;
+    background-color: transparent;
+    border: 3px solid #fa462a;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .20),
+                -6px -6px 10px -1px rgba(255, 255, 255, .17);
+}
+.right_3 >button:hover{
+    background-color: #fa462a;
+    color: white;
+}
+
+
+.container_4{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content_4{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    background-color: #ffede8;
+}
+.left_4,.right_4{
+    height: 100%;
+    width: 100%;
+}
+.left_4 {
+    background-image: url(image/mockup2.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.right_4 {
+    display: flex;
+    padding-left: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.right_4 >h1{
+    align-self: flex-start;
+    font-size: 60px;
+}
+.right_4 >p{
+    align-self: start;
+    font-size: 20px;
+}
+.right_4 >button{
+    align-self: self-start;
+    padding: 25px 35px;
+    color: #fa462a;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #fa462a;
+    outline: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .20),
+                -6px -6px 10px -1px rgba(255, 255, 255, .17);
+}
+.right_4 >button:hover{
+    background-color: #fa462a;
+    color: white;
+}
+.footer{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.footer > h5{
+    font-size: 20px;
+}
+.footer > .footerlinks{
+    padding: 10px;
+    font-size: 22px;
+}
+.footer > .footerlinks > i:hover{
+    color: #fa462a;
+    cursor: pointer;
+}
